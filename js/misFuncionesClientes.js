@@ -49,7 +49,7 @@ function guardarInformacionCliente(){
         dataType: 'JSON',
         data: JSON.stringify(var2),
         
-        url:"http://155.248.202.105:8080/api/Client/save",
+        url:"http://132.226.165.169:8080/api/Client/save",
        
         
         success:function(response) {

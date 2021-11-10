@@ -32,7 +32,7 @@ function traerInformacionDisfraz() {
 
 function pintarRespuestaDisfraz(response){
 
-    let myTable="<table class='table table-bordered table-dark'><thead>"
+    let myTable="<table class='table table-bordered table-dark'>"
     myTable+="<tr>";
         myTable+="<th scope='col'>Nombre</th>";
         myTable+="<th scope='col'>Modelo</th>";
@@ -42,7 +42,7 @@ function pintarRespuestaDisfraz(response){
         myTable+="<th scope='col'>Borrar</th>";
         myTable+="<th scope='col'>Editar</th>";
         myTable+="<th scope='col'>Actualizar</th>";
-    "</tr></thead>";
+    "</tr>";
 
     for(i=0;i<response.length;i++){
         myTable+="<tbody>";
